@@ -1,0 +1,17 @@
+.Grouplist{
+    position: relative;
+    margin-left: 400px;
+    margin-top: 200px;
+}
+.groupcard{
+    height: 350px;
+    width: 350px;
+}
+.groupimg{
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+}
+.groupbtn{
+    width: 150px;
+}

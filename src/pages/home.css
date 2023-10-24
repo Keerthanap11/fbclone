@@ -1,0 +1,186 @@
+body {
+  width: 100%;
+  margin: 0 auto;
+  background-color:#edeefb;
+
+}
+.homepage {
+  margin-top: 50px;
+}
+.Leftside{
+  
+    font-size: 15px;
+    display: block; 
+    position: fixed;
+  left: 0;
+  width: 300px;
+  margin-top: -40px;
+padding: 10px;
+box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  
+}
+
+.mainlogo
+{
+    display: flex;
+    flex-direction: row;
+    transition: color 0.3s; 
+}
+.mainlogo:hover{
+    box-sizing: border-box;
+    background-color:  rgb(228, 226, 226);
+    height: 30px;
+    border-radius: 20px;
+    width: 350px;
+   
+}
+
+.addStory{
+    display: flex;
+    color: white;
+    font-size: 1rem;
+  font-weight: 800px;
+    justify-content: flex-start;
+  
+}
+.Story{
+ 
+    margin: 0 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 20rem;
+    border-radius: .5rem;
+}
+.message{
+    display: grid;
+    height: 25rem;
+    margin-left: 5%;
+    border-radius: 20px;
+    width:600px;
+    height: 200px;
+    background-color: white;
+}
+.Post{
+    display: flex;
+    justify-content: flex-start;
+}
+.Post > div{
+    margin-left: 2px;
+}
+.Post > img{
+    height: 45px;
+    border-radius: 50%;
+    margin: 15px;
+    padding-top: 9px;
+}
+input[type=text]{
+    margin: 15px 0;
+    height: 3rem;
+    width: 300px;
+    display: inline;
+    border: 1px solid #b4a7a7;
+    border-radius: 12px;
+    margin-left: 0;
+    box-sizing: border-box;
+    background-color: rgb(240, 240, 240);
+}
+.Call{
+    display: flex;
+    align-items: center;
+    height: 5rem;
+}
+
+.ico{
+    display: flex;
+    align-items: center;
+   
+}
+.icone{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 40px;
+    font-size: 1rem;
+}
+
+.img{
+    background-image: url(/images/mount2.jpg);
+    height: 250px;
+    width: 140px;
+    border-radius: 30px;
+}
+.img2{
+    background-image: url(/images/mount3.jpg);
+    height: 250px;
+    width: 140px;
+    background-size: contain;
+    border-radius: 30px;
+}.img1{
+    background-image: url(/images/water.jfif);
+    height: 250px;
+    width: 140px;
+    background-size: contain;
+    border-radius: 30px;
+}
+
+.img3{
+    background-image: url(/images/mount5.jpg);
+    height: 250px;
+    width: 140px;
+    background-size: contain;
+    border-radius: 30px;
+}
+.img4{
+    background-image: url(/images/fall.jfif);
+    height: 250px;
+    width: 140px;
+    /* background-size: contain; */
+    border-radius: 30px;
+}
+/* .Rightside{
+    height:100%;
+    margin-top: 20px;
+
+  
+} */
+.Contact{
+    display: flex;
+    align-items: center;
+position: relative;
+/* left: 80px; */
+    
+}
+/* .MainArea{
+position: relative;
+right: 100px;
+} */
+/* .list{
+    margin-left: 80px;
+
+} */
+.Contact-heading{
+    font-size: 2rem;
+    font-weight: 800px;
+   
+}
+.contact-icons{
+    display: flex;
+    flex-direction: row;
+}
+.contact-svg{
+    display: flex;
+    align-items: center;
+    padding: 2px 20px;
+}
+
+.Profilee{
+    display: flex;
+    align-items: center;
+    font-size: 1.7rem;
+    font-weight: 550;
+}
+.Profilee >img{
+    border-radius: 80%;
+    width: 10%;
+}
